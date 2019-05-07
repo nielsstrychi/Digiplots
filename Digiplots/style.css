@@ -351,9 +351,12 @@ body{
 
 
 .spacersec {
-    min-width: 85vh!important;
+    min-width: 140%!important;
+    max-width: 85%;
     height: 0;
-    left: 110%!important;
+    position: absolute;
+    left: 50% !important;
+    margin-left: -15%!important;
     min-height: auto;
     max-height: 70vh;
     overflow: auto;
